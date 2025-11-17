@@ -1,8 +1,6 @@
-"""disk_scheduler package
-Expose a simple API:
-- DiskScheduler: high-level wrapper around algorithms
-"""
+"""disk_scheduler package entry points"""
 from .algorithms import DiskScheduler
+from .plotter import plot_results
 
 
-__all__ = ["DiskScheduler"]
+__all__ = ["DiskScheduler", "plot_results"]
