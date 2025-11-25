@@ -1,4 +1,4 @@
-# Disk Scheduler
+#. Disk Scheduler
 
 
 A small Python package that implements common disk scheduling algorithms (FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK) plus a plotting helper and a CLI/example runner. Split into modules for easy maintenance and GitHub upload.
